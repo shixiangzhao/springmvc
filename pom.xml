@@ -48,6 +48,7 @@
 						<warName>springmvc</warName>
 					</configuration>
 				</plugin>
+				<!-- 指定JRE编译器版本，这样就不会每次Maven-update project的时候回到J2SE1.5 -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
