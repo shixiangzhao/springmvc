@@ -29,7 +29,9 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+    <!-- 参考：http://maven.apache.org/pom.html -->
 	<build>
+        <finalName>springmvc</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -43,7 +45,7 @@
 								<directory>src/main/webapp</directory>
 							</resource>
 						</webResources>
-						<warName>mvc121</warName>
+						<warName>springmvc</warName>
 					</configuration>
 				</plugin>
 				<plugin>

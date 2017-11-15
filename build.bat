@@ -1,6 +1,6 @@
 echo Auto build project at tomcat...
-set CATALINA_HOME=E:\dev\apache-tomcat-8.5.23
-set PROJ_HOME=D:\workspace\2017\springmvc
+set CATALINA_HOME=D:\software\apache-tomcat-8.5.23
+set PROJ_HOME=D:\Cienet\workspace\springmvc
 
 if exist %CATALINA_HOME%\webapps\mvc121.war del %CATALINA_HOME%\webapps\mvc121.war /q
 echo Copy WAR to webapps...
