@@ -3,11 +3,12 @@ package shixzh.spring.springmvc.service;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+
+import com.alibaba.fastjson.JSONObject;
 
 import shixzh.spring.springmvc.model.HttpClientTestResult;
 import shixzh.spring.springmvc.util.JsonHttpClientUtil;
